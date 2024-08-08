@@ -31,16 +31,16 @@ class _LocationScreenState extends State<LocationScreen> {
                     onPressed: () {},
                     child: Icon(
                       Icons.near_me,
-                      size: 50.0,
-                      color: Colors.white, // Added color to match FlatButton's default behavior
+                      size: kIconSize,
+                      color: kIconColor,
                     ),
                   ),
                   TextButton(
                     onPressed: () {},
                     child: Icon(
                       Icons.location_city,
-                      size: 50.0,
-                      color: Colors.white, // Added color to match FlatButton's default behavior
+                      size: kIconSize,
+                      color: kIconColor,
                     ),
                   ),
                 ],

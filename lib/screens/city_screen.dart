@@ -27,8 +27,8 @@ class _CityScreenState extends State<CityScreen> {
                   onPressed: () {},
                   child: Icon(
                     Icons.arrow_back_ios,
-                    size: 50.0,
-                    color: Colors.white, // Added color to match FlatButton's default behavior
+                    size: kIconSize,
+                    color: kIconColor, // Added color to match FlatButton's default behavior
                   ),
                 ),
               ),
@@ -36,7 +36,8 @@ class _CityScreenState extends State<CityScreen> {
                 padding: EdgeInsets.all(20.0),
                 child: null,
               ),
-              TextButton(
+              ElevatedButton(
+                style: kElevatedButtonStyle,
                 onPressed: () {},
                 child: Text(
                   'Get Weather',
